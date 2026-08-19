@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import pandas as pd
 
-
+st.set_page_config(page_title="Customer Churn Predictor")
 # Load the pre-trained model
 model = joblib.load('cust_churn_model.pkl')
 
